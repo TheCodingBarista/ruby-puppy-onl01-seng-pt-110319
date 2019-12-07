@@ -17,10 +17,9 @@ class Dog
   end
   
  def self.print_all
-    #@@all.each do |puppy|
-    #  puts puppy
-  #  end
-  @@all.inspect
+    @@all.each do |puppy|
+      puts puppy
+    end
   end
   
   
