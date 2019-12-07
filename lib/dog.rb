@@ -17,10 +17,9 @@ class Dog
   end
   
   def self.print_all
-    #all.each do |puppy|
-    #  puts "#{puppy}"
-    #end
-    puts all.to_s
+    all.each do |puppy|
+      puts puppy.to_s
+    end
   end
   
   def save
