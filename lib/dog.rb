@@ -20,7 +20,7 @@ class Dog
     #all.each do |puppy|
     #  puts "#{puppy}"
     #end
-    puts Dog.all
+    puts self.all
   end
   
   def save
