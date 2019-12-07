@@ -16,6 +16,11 @@ class Dog
     all.clear
   end
   
+  def to_s
+    
+  end
+  
+  
   def self.print_all
     all.each do |puppy|
       puts "#{puppy}.to_s"
