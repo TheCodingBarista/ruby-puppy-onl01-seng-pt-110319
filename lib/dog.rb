@@ -4,8 +4,8 @@ class Dog
   @@all = [] 
   
   def initialize(name) 
-    @name = name
     @@all << self
+    @name = name
   end
 
   def self.all
